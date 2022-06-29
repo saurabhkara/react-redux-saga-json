@@ -1,0 +1,32 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"John",
+            "email":"john@gmail.com",
+            "phone":1234567890,
+            "address":"USA"
+        },
+        {
+            "id":2,
+            "name":"James",
+            "email":"jamesn@gmail.com",
+            "phone":1244541151,
+            "address":"Australia"
+        },
+        {
+            "id":3,
+            "name":"Saurabh",
+            "email":"saurabh@gmail.com",
+            "phone":1234567899,
+            "address":"India"
+        },
+        {
+            "id":4,
+            "name":"Rohit",
+            "email":"rohit@gmail.com",
+            "phone":1234567888,
+            "address":"India"
+        }
+    ]
+}
