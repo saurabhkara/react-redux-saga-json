@@ -93,7 +93,16 @@
   border: 1px solid black;
   height: 30px;
 }
-/* .buttons{
-  background-color: aqua;
-  border-radius: 5px;
-} */
+.buttons{
+font-size: x-small;
+color: red;
+ 
+}
+
+.linkText{
+  font-size: x-small;
+}
+
+.addUserPage{
+  padding-top: 50;
+}

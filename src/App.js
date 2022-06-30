@@ -6,6 +6,7 @@ import Header from './component/Header';
 import {useSelector, useDispatch} from 'react-redux';
 import {loadUserStart} from './redux/action';
 import React,{useEffect} from 'react';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
   },[])
   return (
     <BrowserRouter>
-    <Header />
+    <ToastContainer />
     <div className="App">
+    <Header />
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
